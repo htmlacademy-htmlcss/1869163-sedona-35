@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Valerie Kravtsova](https://up.htmlacademy.ru/htmlcss/35/user/1869163).
-* Наставник: `Неизвестно`.
+- Студент: [Valerie Kravtsova](https://up.htmlacademy.ru/htmlcss/35/user/1869163).
+- Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
