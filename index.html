@@ -73,8 +73,7 @@
           <h3 class="visually-hidden">Преимущества</h3>
 
           <div class="hero-bottom">
-            <h2>Седона — небольшой городок в Аризоне,
-              заслуживающий большего!</h2>
+            <h2>Седона — небольшой городок в Аризоне,<span class="display-block">заслуживающий большего!</span></h2>
             <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
           </div>
 
@@ -82,7 +81,8 @@
             <li class="advantages-item true-town blue">
               <div class="centered-content">
                 <h3 class="advantages-title">Настоящий городок</h3>
-                <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                <p class="advantages-description">Седона — не аттракцион для<span class="display-block">туристов, там
+                    течёт своя</span>жизнь</p>
               </div>
               <img class="big-photo" src="images/main/advantages/photo-1.jpg" alt="Фотография городка" width="800"
                 height="384">
@@ -91,7 +91,7 @@
               <img class="big-photo" src="images/main/advantages/photo-2.jpg" alt="Фотография моста дьявола" width="800"
                 height="384">
               <div class="centered-content">
-                <h3 class="advantages-title">Там есть мост дьявола</h3>
+                <h3 class="advantages-title">Там есть<span class="display-block">мост дьявола</span></h3>
                 <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
             </li>
@@ -101,7 +101,7 @@
                 <p class="advantages-description">Все достопримечательности находятся очень близко</p>
               </div>
             </li>
-            <li class="advantages-item light-blue">
+            <li class="advantages-item gray-blue">
               <div>
                 <h3 class="advantages-title">Красивая дорога</h3>
                 <p class="advantages-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
@@ -119,19 +119,23 @@
             <li class="advantages-item light-blue">
               <div class="icon icon-hotels">
                 <h3 class="icon-title">Жильё</h3>
-                <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                <p class="advantages-description">Рекомендуем пожить<span class="display-block">в настоящем
+                    мотеле,</span>всё как в кино!
+                </p>
               </div>
             </li>
             <li class="advantages-item">
               <div class="icon icon-food">
                 <h3 class="icon-title">Еда</h3>
-                <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                <p class="advantages-description">Всегда заказывайте<span class="display-block">топовый фирменный
+                    бургер,</span>вы не разочаруетесь!</p>
               </div>
             </li>
             <li class="advantages-item light-blue">
               <div class="icon icon-souvenirs">
                 <h3 class="icon-title">Сувениры</h3>
-                <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
+                <p class="advantages-description">Не только китайского,<span class="display-block">но и
+                    настоящего местного</span>производства!</p>
               </div>
             </li>
           </ul>
@@ -140,8 +144,9 @@
 
         <section class="interested">
           <h2 class="interested-title">Заинтересовались?</h2>
-          <p class="interested-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
-            гостиниц в Седоне</p>
+          <p class="interested-description">Укажите предполагаемые даты поездки,<span class="display-block">и мы покажем
+              вам лучшие предложения
+              гостиниц в Седоне</span></p>
           <a class="button-brown-big" href="#">Поиск гостиницы в Седоне</a>
         </section>
 
@@ -237,52 +242,55 @@
           <section class="modal-content">
             <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
             <form class="travel-form" action="#" method="post">
-              <p class="travel-group-depart">
-                <label for="date-depart">Дата заезда:</label>
-                <input class="travel-form-field" type="text" id="date-depart" name="date-depart"
-                  placeholder="Укажите дату">
-                <span class="info error">Мы не можем отправить вас в прошлое.</span>
-              </p>
-              <p class="travel-group-return">
-                <label for="date-return">Дата выезда:</label>
-                <input class="travel-form-field" type="text" id="date-return" name="date-return"
-                  placeholder="Укажите дату">
-                <span class="info">На эти даты есть свободные номера. Пока есть.</span>
-              </p>
-              <div class="travel-people">
-                <div class="travel-quantity">
-                  <p>Взрослые:</p>
-                  <div class="quantity-buttons">
-                    <button class="minus-button">
-                      <span class="visually-hidden">-</span>
-                    </button>
-                    <span>2</span>
-                    <button class="plus-button">
-                      <span class="visually-hidden">+</span></button>
+              <div class="travel-gap">
+                <p class="travel-group-depart">
+                  <label for="date-depart">Дата заезда:</label>
+                  <input class="travel-form-field" type="text" id="date-depart" name="date-depart"
+                    placeholder="Укажите дату">
+                  <span class="info error">Мы не можем отправить вас в прошлое.</span>
+                </p>
+                <p class="travel-group-return">
+                  <label for="date-return">Дата выезда:</label>
+                  <input class="travel-form-field" type="text" id="date-return" name="date-return"
+                    placeholder="Укажите дату">
+                  <span class="info">На эти даты есть свободные номера. Пока есть.</span>
+                </p>
+                <div class="travel-people">
+                  <div class="travel-quantity">
+                    <p>Взрослые:</p>
+                    <div class="quantity-buttons">
+                      <button class="minus-button">
+                        <span class="visually-hidden">-</span>
+                      </button>
+                      <span>2</span>
+                      <button class="plus-button">
+                        <span class="visually-hidden">+</span></button>
+                    </div>
                   </div>
-                </div>
-                <div class="travel-quantity">
-                  <div class="quantity-kids">
-                    <p>Дети:</p>
-                    <button class="tooltip-button" type="button" aria-labelledby="tooltip-label-kids">
-                      <svg class="tooltip-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none">
-                        <circle cx="13" cy="13" r="13" fill="#83B3D3" />
-                        <path fill="#fff" fill-rule="evenodd" d="M12 7h2v2h-2V7Zm2 12h-2v-9h2v9Z" clip-rule="evenodd" />
-                      </svg>
-                      <span class="tooltip-text" role="tooltip" id="tooltip-label-kids">Укажите количество детей,
-                        которые
-                        будут с вами, возраст
-                        которых от 6 до
-                        18 лет. Дети до 6 лет размещаются бесплатно.</span>
-                    </button>
-                  </div>
-                  <div class="quantity-buttons">
-                    <button class="minus-button">
-                      <span class="visually-hidden">-</span>
-                    </button>
-                    <span>2</span>
-                    <button class="plus-button">
-                      <span class="visually-hidden">+</span></button>
+                  <div class="travel-quantity kids">
+                    <div class="quantity-kids">
+                      <p>Дети:</p>
+                      <button class="tooltip-button" type="button" aria-labelledby="tooltip-label-kids">
+                        <svg class="tooltip-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none">
+                          <circle cx="13" cy="13" r="13" fill="#83B3D3" />
+                          <path fill="#fff" fill-rule="evenodd" d="M12 7h2v2h-2V7Zm2 12h-2v-9h2v9Z"
+                            clip-rule="evenodd" />
+                        </svg>
+                        <span class="tooltip-text" role="tooltip" id="tooltip-label-kids">Укажите количество детей,
+                          которые
+                          будут с вами, возраст
+                          которых от 6 до
+                          18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                      </button>
+                    </div>
+                    <div class="quantity-buttons">
+                      <button class="minus-button">
+                        <span class="visually-hidden">-</span>
+                      </button>
+                      <span>2</span>
+                      <button class="plus-button">
+                        <span class="visually-hidden">+</span></button>
+                    </div>
                   </div>
                 </div>
               </div>
