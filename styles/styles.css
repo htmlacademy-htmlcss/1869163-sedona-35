@@ -16,10 +16,6 @@
   font-display: swap;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   height: 100%;
 }
@@ -489,6 +485,8 @@ body {
 }
 
 .advantages-item {
+  box-sizing: border-box;
+
   display: flex;
 
   width: 400px;
@@ -685,6 +683,8 @@ body {
 }
 
 .subscribe {
+  box-sizing: border-box;
+
   min-height: 417px;
   padding: 96px 0;
 
@@ -722,6 +722,8 @@ body {
 }
 
 .subscribe-input {
+  box-sizing: border-box;
+
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
 
@@ -742,6 +744,8 @@ body {
 }
 
 .footer-container {
+  box-sizing: border-box;
+
   display: flex;
 
   min-height: 120px;
@@ -815,8 +819,10 @@ body {
 }
 
 .filter-content {
+  box-sizing: border-box;
+
   min-height: 412px;
-  padding: 35px 70px 50px;
+  padding: 37px 70px 50px;
 
   color: #fff;
   background-color: #756157;
@@ -1105,6 +1111,8 @@ body {
 }
 
 .range-input-from {
+  box-sizing: border-box;
+
   font: inherit;
 
   width: 143px;
@@ -1117,6 +1125,8 @@ body {
 }
 
 .range-input-to {
+  box-sizing: border-box;
+
   font: inherit;
 
   width: 143px;
@@ -1189,6 +1199,12 @@ body {
 }
 
 .catalog-result p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+
   margin: 0 200px 0 0;
 }
 
@@ -1249,6 +1265,8 @@ body {
 }
 
 .view a {
+  box-sizing: border-box;
+
   display: flex;
 
   width: 48px;
@@ -1301,13 +1319,13 @@ body {
   display: flex;
   flex-direction: column;
 
-  padding: 20px;
+  padding: 20px 20px 16px;
 
   color: #333;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
 
-  gap: 16px;
+  gap: 17px;
 }
 
 .product-card h3 {
@@ -1363,6 +1381,8 @@ body {
   font-size: 16px;
 
   display: flex;
+
+  height: 37px;
 
   text-decoration: none;
   text-transform: uppercase;
@@ -1446,8 +1466,7 @@ body {
 }
 
 .subscribe-inner {
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
 
   min-height: 415px;
   padding: 96px 258px 100px;
@@ -1469,6 +1488,7 @@ body {
   line-height: 26px;
 
   margin: 0 0 54px;
+  padding: 0 75px;
 
   color: #333;
 }
@@ -1488,6 +1508,8 @@ body {
 }
 
 .modal {
+  box-sizing: border-box;
+
   position: relative;
 
   margin: auto;
@@ -1591,6 +1613,8 @@ body {
 }
 
 .travel-form-field {
+  box-sizing: border-box;
+
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -1680,6 +1704,8 @@ body {
 }
 
 .quantity-buttons input {
+  box-sizing: border-box;
+
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
