@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
 
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
 
@@ -72,7 +72,7 @@ body {
 }
 
 .button-brown-small {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -109,7 +109,7 @@ body {
 }
 
 .button-brown-big {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -147,7 +147,7 @@ body {
 }
 
 .button-blue-small {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -185,7 +185,7 @@ body {
 }
 
 .button-blue-big {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -223,7 +223,7 @@ body {
 }
 
 .button-basic-small {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
@@ -264,7 +264,7 @@ body {
 }
 
 .button-green {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
 
@@ -661,7 +661,7 @@ body {
 }
 
 .interested-title {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -673,7 +673,7 @@ body {
 }
 
 .interested-description {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -722,7 +722,7 @@ body {
 }
 
 .subscribe-input {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
 
   width: 452px;
@@ -1194,7 +1194,7 @@ body {
 
 .select-control {
   -webkit-appearance: none;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
 
@@ -1591,7 +1591,7 @@ body {
 }
 
 .travel-form-field {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
 
@@ -1680,7 +1680,7 @@ body {
 }
 
 .quantity-buttons input {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
 
@@ -1788,7 +1788,7 @@ body {
 }
 
 .tooltip-text {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   text-align: initial;
