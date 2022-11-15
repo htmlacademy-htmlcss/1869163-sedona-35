@@ -160,17 +160,18 @@
             <h2 class="visually-hidden">Список гостиниц с фильтрами.</h2>
             <p>Найдено гостиниц: 38</p>
 
+            <div class="select-wrapper">
+              <select class="select-control" aria-label="Сортировка">
 
-            <select class="select-control" aria-label="Сортировка">
+                <option value="cheap">Сначала дешевые
+                </option>
+                <option value="popular">Сначала популярные
+                </option>
+                <option value="expensive">Сначала дорогие
+                </option>
 
-              <option value="cheap">Сначала дешевые
-              </option>
-              <option value="popular">Сначала популярные
-              </option>
-              <option value="expensive">Сначала дорогие
-              </option>
-
-            </select>
+              </select>
+            </div>
 
             <ul class="view">
               <li class="view-icon">
@@ -346,11 +347,10 @@
         </section>
 
         <section class="subscribe-inner">
-          <div class="subscribe-content">
-            <h2 class="subscribe-title-inner">Подпишитесь на рассылку</h2>
-            <p class="subscribe-description-inner">Только полезная информация и никакого спама, честное бойскаутское!
-            </p>
-          </div>
+          <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+          <p class="subscribe-description-inner">Только полезная информация и никакого спама,<span
+              class="display-block">честное бойскаутское!</span>
+          </p>
           <form class="subscribe-email" action="#" method="get">
             <input class="subscribe-input" type="text" name="input-email" placeholder="Ваш e-mail">
             <button class="button-blue-big subscribe-button" type="submit">Подписаться</button>
@@ -401,6 +401,8 @@
           </section>
           <a class="footer-social-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
           <a href="https://htmlacademy.ru/">
+            <span class="visually-hidden">Сайт разработчика.
+            </span>
             <svg class="footer-logo" width="115" height="34" viewBox="0 0 115 34" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 13.7232V16.3232H2.5V13.7232H0Z" />
               <path
