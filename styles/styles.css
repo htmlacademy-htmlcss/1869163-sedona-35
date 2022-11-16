@@ -1888,14 +1888,15 @@ body {
   text-align: initial;
 
   position: absolute;
-  top: 30px;
+  top: 28px;
   left: -123px;
 
   display: none;
+  box-sizing: border-box;
 
   width: 256px;
   min-height: 143px;
-  padding: 15px 18px 18px 22px;
+  padding: 19px 18px 18px 22px;
 
   color: #fff;
   border-radius: 10px;
