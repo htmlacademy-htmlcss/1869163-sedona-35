@@ -63,8 +63,10 @@
 
         <div class="hero">
           <h1 class="visually-hidden">Добро пожаловать в прекрасную Седону.</h1>
-          <img class="welcome" src="images/main/welcome.svg" alt="Природные достопримечательности Седоны." width="458"
-            height="352">
+          <div class="hero-img">
+            <img class="welcome" src="images/main/welcome.svg" alt="Природные достопримечательности Седоны." width="458"
+              height="352">
+          </div>
         </div>
 
         <section class="advantages">
@@ -245,13 +247,13 @@
                 <p class="travel-group-depart">
                   <label for="date-depart">Дата заезда:</label>
                   <input class="travel-form-field" type="text" id="date-depart" name="date-depart"
-                    placeholder="Укажите дату">
+                    placeholder="Укажите дату" required>
                   <span class="info error">Мы не можем отправить вас в прошлое.</span>
                 </p>
                 <p class="travel-group-return">
                   <label for="date-return">Дата выезда:</label>
                   <input class="travel-form-field" type="text" id="date-return" name="date-return"
-                    placeholder="Укажите дату">
+                    placeholder="Укажите дату" required>
                   <span class="info">На эти даты есть свободные номера. Пока есть.</span>
                 </p>
                 <div class="travel-people">
